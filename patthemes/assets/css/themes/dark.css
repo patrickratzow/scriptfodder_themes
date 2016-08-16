@@ -83,6 +83,7 @@ td {
     border-bottom: 0 !important;
     border-top: 0px solid !important;
 }
+
 .avatar {
     width: 64px;
     height: 64px;
@@ -401,12 +402,19 @@ body > div.container-fluid > div {
 }
 
 
+hr {
+	border-top: 1px solid #282828 !important;
+}
 /*markdown edits*/
 
 code {
-    color: #ECECEC;
-    background-color: #242424;
-    border-radius: 4px;
+    color: rgb( 195, 57, 43 );
+    background-color: #282828;
+	border: 0px;
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+	padding-left: 2.5px;
+	padding-right: 2.5px;
 }
 
 .markdown-body blockquote {
@@ -421,6 +429,18 @@ blockquote {
     background-color: #222222 !important;
 	border-left: 4px solid #3b3b3b;
 }
+
+pre {
+    color: rgb( 195, 57, 43 );
+    background-color: #282828;
+    border-radius: 0px;
+	border: 0px;
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+	padding-left: 2.5px;
+	padding-right: 2.5px;
+}
+
 
 /*profile stuff*/
 
@@ -562,6 +582,16 @@ table .forum-category-lastpost-avatar {
 /* arrows */
 .media-carousel .carousel-control.left, .carousel-control.left  {
     left: -12px;
+    background: #222;
+    border: 4px solid #101010;
+    border-radius: 23px;
+    height: 40px;
+    width: 40px;
+    margin-top: 30px;
+}
+
+.media-carousel .carousel-control.right {
+    right: -12px !important;
     background: #222;
     border: 4px solid #101010;
     border-radius: 23px;
