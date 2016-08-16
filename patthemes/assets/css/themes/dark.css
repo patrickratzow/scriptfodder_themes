@@ -1,0 +1,571 @@
+/* https://github.com/Lunaversitay/ScriptFodder-Themes */
+
+* {
+    border-radius: 0 !important;
+}
+body,
+html {
+    background: #2c2c2c;
+}
+a {
+    color: #E8E8E8 !important;
+}
+a:hover {
+    color: #696969 !important;
+}
+p,
+span,
+small,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #aaa !important;
+}
+thead {
+    background: #222 !important;
+    color: #aaa !important;
+    border: 1px solid #161616 !important;
+}
+th {
+    background: transparent !important;
+}
+tr {
+    background: transparent !important;
+}
+td {
+	padding-top: 0px !important;
+	padding-left: 2.5px !important;
+	padding-right: 2.5px !important;
+	padding-bottom: 0px !important;
+    border: 0px !important;
+    color: #aaa !important;
+}
+.script-listing {
+    border: 1px solid #161616 !important;
+    background: #222 !important;
+    color: #aaa !important;
+}
+.script-description {
+    border: 1px solid #161616 !important;
+    background: #222 !important;
+    color: #aaa !important;
+}
+/* fuck off warnings */
+
+.big-warning {
+    display: none !important;
+}
+.well {
+    border: 1px solid #161616 !important;
+    color: #aaa !important;
+	background: #222 !important;
+}
+
+.panel {
+    border: 0 !important;
+    color: #aaa !important;
+}
+.panel-heading {
+	border: 1px solid #161616 !important;
+    background: #222 !important;
+}
+.panel-body {
+	border: 1px solid #161616 !important;
+    background: #222 !important;
+	border-top: 0px !important;
+}
+.panel-footer {
+    border-left: 0px solid !important;
+    border-left-color: #404040 !important;
+    background: #222 !important;
+    border-bottom: 0 !important;
+    border-top: 0px solid !important;
+}
+.avatar {
+    width: 64px;
+    height: 64px;
+}
+
+.thumbnail a>img, .thumbnail>img {
+	width: auto;
+	height: auto;
+}
+
+
+.hidden-xs,
+col-sm-2,
+col-md-1 {
+    padding: 0 !important;
+}
+.presentation {
+    border-top: 1px solid #66CCB3 !important;
+    border-right: 1px solid #66CCB3 !important;
+    border-left: 1px solid #66CCB3 !important;
+}
+.page-header {
+    background: #222 !important;
+    border-bottom: 1px solid #161616 !important;
+}
+.navbar {
+    background: #2c2c2c !important;
+    border: 0 !important;
+    border-bottom: 1px solid #161616 !important;
+}
+.footer-top, .footer-bottom {
+    border-top: 1px solid #161616 !important;
+    background: #222 !important;
+}
+.navbar-brand img {
+	padding: 16px 88.415px;
+	background-image: url(../../img/logo_white.png);
+	background-size: 100% 100%;
+}
+.navbar .nav>li>a {
+    color: #fff !important;
+}
+.navbar .nav>li>a:hover {
+    color: #aaa !important;
+}
+
+.navbar-default .navbar-nav>.open>a {
+	background-color: #161616;
+}
+.navbar-default .navbar-nav>.active>a {
+    background-color: #242424 !important;
+    border-bottom: initial !important;
+    border-left: 0px solid #000 !important;
+    border-right: 0px solid #000 !important;
+    color: #aaa !important;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	padding-bottom: 20px !important;
+}
+.thumbnail {
+    border-color: #000 !important;
+    background: #222 !important;
+	border: 1px; 
+}
+
+.blog-comment .panel>.panel-footer, .blog-comment .panel>.panel-heading, .btn, .navbar .nav {
+    text-transform: none;
+	border-bottom: 0px !important;
+}
+
+.reputation {
+	background-color: #28B65B !important;
+	color: #E8E8E8 !important;
+}
+
+/*really gay button shit on the core seriously */
+
+.btn {
+    text-shadow: none !important;
+    border: 0px !important;
+	border-bottom: 0px !important;
+}
+
+.btn-default {
+    border: 1px solid #161616 !important;
+    color: #aaa !important;
+    background: #262626 !important;
+}
+.btn-default:hover {
+    color: #fff !important;
+    border: 1px solid #000 !important;
+    background: #2c2c2c !important;
+}
+.form-control {
+    background: transparent !important;
+    border: 1px solid #161616 !important;
+    color: #aaa !important;
+}
+.page-tabs .selected a {
+    background: transparent !important;
+    border-left-color: #161616 !important;
+    border-right-color: #161616 !important;
+    /* whoever the retard is that broke the border-bottom, kys */
+    
+    border-bottom: transparent !important;
+    border-style: solid !important;
+    border-top-color: #161616 !important;
+    border-width: 1px !important;
+}
+.nav-tabs>li.active>a {
+    background: transparent !important;
+    color: #aaa !important;
+    border-color: #000 !important;
+    border-bottom-color: transparent !important;
+}
+.nav>li>a:hover {
+    background: #222 !important;
+    border-color: #000 !important;
+    border-bottom: transparent !important;
+}
+.page-tabs a:focus,
+.page-tabs a:hover {
+    border-bottom: none !important;
+    background: #2c2c2c !important;
+    border-color: #000;
+}
+.pagination>.active>a {
+    border-color: #161616 !important;
+    background: #222 !important;
+}
+.pagination>li>a,
+.pagination>li>span {
+    border-color: #121212 !important;
+    background: #2c2c2c !important;
+}
+.pagination>.disabled>a {
+    border-color: #101010 !important;
+    background: #222 !important;
+}
+.navbar-default .navbar-nav>.open>a {
+    background: #222 !important;
+}
+.navbar-default .navbar-nav>.open:hover {
+    background: #666 !important;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    background: #222 !important;
+    border-color: #161616 !important;
+}
+.list-group-item {
+    background: #262626 !important;
+    border: 1px solid #121212 !important;
+}
+/*
+Before: http://i.imgur.com/yV4SRvm.png
+After: http://i.imgur.com/b404zYf.png
+*/
+.row {
+    background: transparent !important;
+    color: #aaa !important;
+    border-color: #161616 !important;
+}
+.breadcrumb {
+    background-color: #222222 !important;
+    border: 1px solid #161616;
+}
+.forum-thread-title {
+   background-color: transparent !important;
+}
+.forum-post {
+    background-color: #2C2C2C !important;
+    border: 1px solid #121212 !important;
+}
+.forum-post-author {
+    background-color: #222222 !important;
+    border: 0px solid #121212 !important;
+}
+.forum-post-footer-right a.post-button {
+    background-color: #222222 !important;
+    border: 1px solid #121212 !important;
+}
+
+.forum-post-author-avatar a img {
+    width: 90px !important;
+    height: 90px !important;
+    border-radius: 50% !important;
+    border: 1px solid #121212 !important;
+}
+.forum-post-ratings {
+    color: #aaa !important;
+}
+.forum-category-header {
+    background-color: #222222 !important;
+}
+.table>thead:first-child>tr:first-child>td {
+    background-color: #222222 !important;
+}
+.forum-category-name {
+    background-color: transparent !important;
+}
+.forum-category-count {
+    background-color: transparent !important;
+}
+.forum-category-lastpost {
+    background-color: transparent !important;
+}
+blockquote {
+    background-color: #222222 !important;
+}
+.forum-users-viewing {
+    border: 1.5px solid #000 !important;
+    color: #aaa !important;
+}
+.ratingsbox {
+    background-color: transparent !important;
+}
+.popupbox {
+    background-color: #222222 !important;
+    border-color: #000;
+}
+.forum-thread-pagination {
+    background-color: #222222 !important;
+    border: 1px solid #121212;
+}
+li {
+    color: #aaa;
+    /* not important */
+}
+.md-editor>.md-header {
+    background-color: #222222 !important;
+	border: 1px solid #161616;
+	border-bottom: 0px;
+}
+.md-editor active {
+    border-color: #000;
+}
+.warning {
+    background-color: rgba(240, 173, 78, .1) !important;
+}
+
+.forum-new-posts a {
+    color: #333 !important;
+}
+
+table.forum-index tr > .forum-category-name > div > a > img:not([src='/assets/img/badges/pug.png']) {
+	-webkit-filter: contrast(0%) brightness(1000%);
+}
+
+.dashboard-widget {
+	border: 1px solid #000 !important;
+	background-color: #313131 !important;
+	color: #aaa !important;
+}
+.dashboard-widget > p {
+	color: #aaa !important;
+}
+
+.img-thumbnail, body {
+	background-color: #1F1F1F !important;
+}
+
+body > div.container-fluid > div {
+	margin-top: -30px !important;
+}
+
+.main-jumbo > h2 {
+	color: #fff !important;
+}
+.main-jumbo > p {
+	color: #fff !important;
+}
+.main-jumbo a {
+	color: #000 !important;
+}
+
+.notification-count{
+	background: rgba( 195, 57, 43, 0.8 );
+	color: #E8E8E8 !important;
+	text-shadow: none !important;
+	border-radius: 4px !important;
+}
+
+.label {
+	color: #fff !important;
+}
+
+.dropdown-menu .divider {
+	height: 1px;
+	margin: 9px 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+/* green button */
+
+.btn-success, .btn-success:focus  {
+    border: 1px solid #121212 !important;
+    color: #D2D7D3 !important;
+    text-shadow: none !important;
+	background-color: #24A85B;
+}
+
+.btn-success:hover {
+    border: 1px solid #000 !important;
+    color: #ECECEC !important;
+    text-shadow: none !important;
+	background-color: #28B65B;
+}
+
+.btn-success:active, .btn-success:focus:hover {
+    border: 1px solid #000 !important;
+    color: #ECECEC !important;
+    text-shadow: none !important;
+	background-color: #36D265 !important;
+}
+
+
+/*markdown edits*/
+
+code {
+    color: #ECECEC;
+    background-color: #242424;
+    border-radius: 4px;
+}
+
+.markdown-body blockquote {
+    background: #F9F9F9;
+    font-size: 1em;
+    padding: 7px 15px;
+    color: #777;
+    border-left: 4px solid #3b3b3b;
+}
+
+blockquote {
+    background-color: #222222 !important;
+	border-left: 4px solid #3b3b3b;
+}
+
+/*profile stuff*/
+
+.item-user-profile #avatar img {
+    position: relative;
+    display: circle !important;
+    border-radius: 50% !important;
+    border: 1px solid #242424;
+}
+
+.nav-avatar {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top: -10px;
+    margin-left: 8px;
+	display: circle !important;
+	border-radius: 50% !important;
+}
+
+/*blue button
+Lunas theme: http://i.imgur.com/nO2HzrY.png
+My modified theme of his: http://i.imgur.com/DRIEd1o.png
+*/
+.btn-primary, .btn-primary:focus {
+	border: 1px solid #161616 !important;
+	background-color: #22A7F0 !important;
+	color: #ECECEC !important;
+}
+
+.btn-primary:hover {
+    border: 1px solid #161616 !important;
+    color: #ECECEC !important;
+	background-color: #19B5FE !important;
+}
+
+.btn-primary:active, .btn-primary:focus:hover {
+    border: 1px solid #161616 !important;
+    color: #ECECEC !important;
+	background-color: #26B2F3 !important;
+}
+
+/*red button*/
+.btn-danger, .btn-danger:focus {
+	border: 1px solid #161616 !important;
+	background-color: #C0392B !important;
+	color: #ECECEC !important;
+}
+
+.btn-danger:hover {
+    border: 1px solid #161616 !important;
+    color: #ECECEC !important;
+	background-color: #D64541 !important;
+}
+
+.btn-danger:active, .btn-danger:focus:hover {
+    border: 1px solid #161616 !important;
+    color: #ECECEC !important;
+	background-color: #D24D57 !important;
+}
+
+table .forum-category-lastpost-avatar {
+    width: 32px;
+    height: 32px;
+    vertical-align: bottom;
+	display: circle !important;
+    border-radius: 50% !important;
+    border: 1px solid #161616 !important;
+}
+
+.table>div {
+	display: block !important;
+}
+
+
+.table>tbody>tr>td, .table>tbody>tr>th {
+    padding: 8px !important;
+    line-height: 1.42857143;
+    vertical-align: center !important;
+    border-top: 1px solid #ddd;
+}
+
+.img-avatar {
+	display: circle !important;
+    border-radius: 50% !important;
+    border: 1px solid #161616 !important;
+}
+
+.price {
+    background: #00B16A;
+    padding: 2px 7px;
+    color: #FFF;
+    font-size: 12px;
+}
+
+.input-group-addon {
+    color: #E8E8E8 !important;
+    background-color: #222222 !important;
+    border: 1px solid #161616 !important;
+    border-radius: 0px !important;
+	border-right: 0px !important;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+ 	background: none;
+	background-color: #161616;
+	color: #E8E8E8 !important;
+}
+
+
+.dropdown-menu>li>a {
+    font-size: 13px;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+.md-editor {
+    display: block;
+    border: 0px;
+}
+
+.md-editor.md-fullscreen-mode {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    padding: 60px 30px 15px;
+    background: #222222 !important;
+    border: 1px solid #161616 !important;
+}
+
+.md-editor.md-fullscreen-mode .md-input:focus, .md-editor.md-fullscreen-mode .md-input:hover {
+    color: #E8E8E8;
+    background: #222222 !important;
+}
+
+/* arrows */
+.media-carousel .carousel-control.left, .carousel-control.left  {
+    left: -12px;
+    background: #222;
+    border: 4px solid #101010;
+    border-radius: 23px;
+    height: 40px;
+    width: 40px;
+    margin-top: 30px;
+}
